@@ -87,3 +87,77 @@ Replace your_api_key_here with the actual API key you got from TMDb.
 
 5. **Open your browser and visit `http://localhost:5173` (default for Vite) to see your app.**
 
+## 🌐 Deploying on Vercel
+
+Vercel is an easy and free hosting platform for frontend projects like **Movix**.
+
+### 🚀 Step-by-step guide:
+
+1. **Push your latest code to GitHub.**
+
+2. **Go to [vercel.com](https://vercel.com) and sign up or log in.**
+
+3. **Click on "New Project"** and import your GitHub repository **Movix**.
+
+4. **Configure Environment Variables in Vercel:**
+
+Go to **Project Settings > Environment Variables** and add the following:
+
+| Key                      | Value                          | Environment |
+|--------------------------|--------------------------------|-------------|
+| `VITE_APP_TMDB_TOKEN`    | your_api_key_here              | Production  |
+
+- **Deploy the project:**
+
+  Vercel will automatically detect it's a Vite/React app.
+
+  It will install dependencies and build your app.
+
+  Once done, you will get a live URL to access your deployed **Movix** website.
+
+  Visit the live URL and enjoy your movie database! 🍿🎬
+
+## 🔄 How Updates Work
+
+- Make code changes locally.
+- Commit and push to GitHub.
+- Vercel automatically rebuilds and redeploys your site with the latest code.
+
+## ⚠️ Important Notes
+
+- Never commit your `.env` file to GitHub. Make sure `.env` is added to `.gitignore`.
+- Keep your TMDb API key private to avoid quota misuse.
+- If movies don’t show up, double-check your API key and environment variable names.
+- The environment variable prefix `VITE_` is **required** for Vite to inject the variables into your frontend code.
+
+## 🙋‍♂️ Author
+
+**Bilalwaris Hayat Shaikh**  
+[GitHub](https://github.com/techybilal) | Full Stack Web developer
+
+---
+
+## 🎉 Contribution
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to **fork** this repo and **send pull requests**.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## ✨ Fun Quote to Inspire
+
+> “Movies can and do have tremendous influence in shaping young lives.”  
+> — *Walt Disney*
+
+---
+
+**Enjoy coding and happy movie hunting!** 🍿🎥
+
+
+
