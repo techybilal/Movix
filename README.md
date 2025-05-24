@@ -62,8 +62,6 @@ VITE_APP_TMDB_TOKEN=your_api_key_here
 ```
 Replace your_api_key_here with the actual API key you got from TMDb.
 
-
-
 ## 💻 Getting Started (Run Locally)
 
 1. **Clone the repo:**
@@ -71,4 +69,18 @@ Replace your_api_key_here with the actual API key you got from TMDb.
    ```bash
    git clone https://github.com/techybilal/Movix.git
    cd Movix
+   ```
    
+2. **Create your .env file as shown above.**
+
+3. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+   
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
