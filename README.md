@@ -59,7 +59,7 @@ In the root directory of the project, create a `.env` file with this content:
 
 ```env
 VITE_APP_TMDB_TOKEN=your_api_key_here
-
+```
 Replace your_api_key_here with the actual API key you got from TMDb.
 
 
