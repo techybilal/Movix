@@ -79,8 +79,11 @@ Replace your_api_key_here with the actual API key you got from TMDb.
    npm install
    ```
    
-4. Start the development server:
+4. **Start the development server:**
 
    ```bash
    npm run dev
    ```
+
+5. **Open your browser and visit `http://localhost:5173` (default for Vite) to see your app.**
+
